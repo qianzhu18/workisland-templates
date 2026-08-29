@@ -1,4 +1,27 @@
 {
   "schemaVersion": 1,
-  "templates": []
+  "templates": [
+    {
+      "id": "workisland.xiaoyu",
+      "name": "WorkIsland 小宇（守岛人）",
+      "version": "1.0.0",
+      "author": "WorkIsland",
+      "license": "Apache-2.0",
+      "compatibility": {
+        "workisland": ">=3.1.0"
+      },
+      "zipUrl": "https://github.com/qianzhu18/workisland-templates/releases/download/templates-workisland.xiaoyu-v1.0.0/workisland-xiaoyu-1.0.0.zip",
+      "zipSha256": "e19b9cbd4870114817975cad6b8c14f2ba075f2b318adb906594253fa74beac0",
+      "modules": [
+        "islandStatus"
+      ],
+      "preview": {
+        "idle": "https://raw.githubusercontent.com/qianzhu18/workisland-templates/main/templates/workisland.xiaoyu/preview/idle.png",
+        "running": "https://raw.githubusercontent.com/qianzhu18/workisland-templates/main/templates/workisland.xiaoyu/preview/running.png",
+        "approval": "https://raw.githubusercontent.com/qianzhu18/workisland-templates/main/templates/workisland.xiaoyu/preview/approval.png",
+        "complete": "https://raw.githubusercontent.com/qianzhu18/workisland-templates/main/templates/workisland.xiaoyu/preview/complete.png",
+        "error": "https://raw.githubusercontent.com/qianzhu18/workisland-templates/main/templates/workisland.xiaoyu/preview/error.png"
+      }
+    }
+  ]
 }
